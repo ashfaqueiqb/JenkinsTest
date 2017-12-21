@@ -24,6 +24,7 @@
     </PreFlow>
     <HTTPProxyConnection>
         <BasePath>/weatherapi</BasePath>
+		<VirtualHost>default</VirtualHost>
         <VirtualHost>secure</VirtualHost>
     </HTTPProxyConnection>
     <RouteRule name="default">
